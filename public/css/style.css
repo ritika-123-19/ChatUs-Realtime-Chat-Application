@@ -1,0 +1,125 @@
+body{
+    height: 95vh;
+    background-image: linear-gradient(rgb(44 214 143 / 94%), rgb(34 197 145));
+}
+.logo{
+    display: block;
+    margin: 1.5% auto;
+    width: 62px;
+    border-radius: 50px;
+    height: 60px;
+    box-shadow: 2px 2px 5px 1px seagreen;
+    
+}
+h1{
+    margin-top: -10px;
+    color:#082f42;
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.container{
+    background-image: url(../img/bg.jpg);
+    width: 75%;
+    margin: auto auto 2%;
+    padding: 1%;
+    padding-left: 2%;
+    border-radius: 10px;
+    height: 55vh;
+    box-shadow: 0px 0px 10px 2px #156157;
+    overflow-y: auto;
+    overflow-y: scroll;
+}
+.container::-webkit-scrollbar {
+    width: 21px;
+}
+.container::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 20px;
+    border: 7px solid transparent;
+    background-clip: content-box;
+}
+.container::-webkit-scrollbar-thumb:hover {
+    background-color:#619e95;
+}
+
+.message{
+    font-family: cursive;
+    padding: 8px;
+    max-width: 35%;
+    padding-inline-end: 25px;
+    margin: 7px 10px;
+    border-radius: 10px;
+}
+.center{
+    text-shadow: 0 0 20px #8a8a8a, 0 0 0px #2b2749, 0 0 0px #fff;
+    text-align: center;
+    color: white;
+    max-width: fit-content;
+    font-size: 15px;
+    font-family: -webkit-pictograph;
+    height: 0px;
+    clear: both;
+    margin: auto;
+    margin-bottom: 3%;
+}
+.center h5{
+    margin: auto;
+}
+.left{
+    background-color: lightsalmon;
+    float: left;
+    clear: both;
+    box-shadow: -3px 3px 1px 0px #a75947;
+}
+.right{
+    background-color: mediumaquamarine;
+    float: right;
+    clear: both;
+    box-shadow: 3px 3px 1px 0px #27745b;
+}
+.message h4{
+    margin: auto;
+    position: relative;
+    top: -5px;
+    left: 0;
+    color: #333;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.message p{
+    margin: auto;
+}
+#send-container {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+.btn{
+    cursor: pointer;
+    display: contents;
+}
+#messageInp{
+    color:black;
+    height: 27px;
+    font-family: cursive;
+    font-size: medium;
+    width: 73%;
+    background:azure;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 3px 2px #1c3a58;
+
+}
+.btn img{
+    margin: 0px;
+    width: 30px;
+    border-radius: 50px;
+    margin: 0px 0px -10px 8px;
+    box-shadow: 0px 0px 5px 2px #103c51;
+}
