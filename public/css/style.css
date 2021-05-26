@@ -1,5 +1,5 @@
 body{
-    height: 95vh;
+    height: 100vh;
     background-image: linear-gradient(rgb(44 214 143 / 94%), rgb(34 197 145));
 }
 .logo{
@@ -47,7 +47,7 @@ h1{
 }
 
 .message{
-    font-family: cursive;
+    font-family: serif;
     padding: 8px;
     max-width: 35%;
     padding-inline-end: 25px;
@@ -107,7 +107,7 @@ h1{
 #messageInp{
     color:black;
     height: 27px;
-    font-family: cursive;
+    font-family: serif;
     font-size: medium;
     width: 73%;
     background:azure;
@@ -115,6 +115,60 @@ h1{
     border: none;
     box-shadow: 0 0 3px 2px #1c3a58;
 
+}
+@media (max-width : 950px){
+    #messageInp{
+        width: 70%;
+    }
+    #send-container{
+        margin: 4% auto;
+    }
+    h1 {
+        margin-top: 0px;
+    }
+}
+@media (max-width : 600px){
+    #messageInp{
+        width: 67%;
+    }#send-container{
+        margin: 4% auto;
+    }
+    h1 {
+        margin-top: 0px;
+    }
+}
+@media (max-width : 450px){
+    #messageInp{
+        width: 63%;
+    }
+    #send-container{
+        margin: 7% auto;
+    }
+    h1 {
+        margin-top: 0px;
+    }
+}
+@media (max-width : 324px){
+    #messageInp{
+        width: 58%;
+    }
+    #send-container{
+        margin: 10% auto;
+    }
+    h1 {
+        margin-top: 0px;
+    }
+}
+@media (max-width : 270px){
+    #messageInp{
+        width: 50%;
+    }
+    #send-container{
+        margin: 10% auto;
+    }
+    h1 {
+        margin-top: 0px;
+    }
 }
 .btn img{
     margin: 0px;
